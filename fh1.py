@@ -1,0 +1,12 @@
+name = input("Enter name: ")
+roll = input("Enter roll number: ")
+branch = input("Enter branch: ")
+semester = input("Enter semester: ")
+f = open("student.txt", "w")
+f.write("Name: " + name + "\n")
+f.write("Roll Number: " + roll + "\n")
+f.write("Branch: " + branch + "\n")
+f.write("Semester: " + semester + "\n")
+f.close()
+
+print("Data written successfully")
